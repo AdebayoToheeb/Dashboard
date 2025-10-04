@@ -1,0 +1,218 @@
+body{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.sidebox {
+    height: 95vh;
+    width: 9vw;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.mainbox {
+    width: 90vw;
+    height: 95vh;
+    background-color: transparent;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.header {
+    width: 95%;
+    height: 45vh;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+
+}
+
+.nav-bar {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    width: 40%;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 17%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    gap: 10px;
+}
+
+.search {
+    border: transparent;
+    height: 30px;
+    width: 85%;
+}
+
+.calender {
+    margin-left: 15%;
+    background-image: url(images/calendar\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.notification {
+    background-image: url(images/notification.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.profile {
+    background-image: url(images/woman.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.H1{
+    margin-left: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bd{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.bc{
+    width: 13vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+.crops {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.farmers {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.orders {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.members {
+    margin-left: 480px;
+    margin-top: 3%;
+    background-color: transparent;
+    height: 15vh;
+    display: flex;
+    box-shadow: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+
+.low {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.view-full {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url(images/right-up.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.H2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.hlder {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bf {
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+    gap: 8px;
+}

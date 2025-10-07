@@ -5,7 +5,7 @@ body{
 }
 .container {
     width: 100%;
-    height: 200vh;
+    height: fit-content;
     background-color: black;
     display: flex;
     background-color: white;
@@ -57,7 +57,7 @@ body{
 
 .mainbox {
     width: 90vw;
-    height: 100%;
+    height: fit-content;
     background-color: transparent;
     margin-left: 150px;
     display: flex;
@@ -69,7 +69,7 @@ body{
 
 .header {
     width: 95%;
-    height: 45vh;
+    height: 40vh;
     background-color: white;
     border-radius: 40px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -257,7 +257,7 @@ body{
 .sec2 {
     border: 1px solid transparent;
     width: 95%;
-    height: 100%;
+    height: 35%;
     border-radius: 30px;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -358,12 +358,6 @@ body{
     font-size: 14px;
 }
 
-.events {
-    border: 1px solid black;
-    border-radius: 30px;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
-}
-
 .Attendance-dash {
     width: 95%;
     height: 70%;
@@ -447,12 +441,229 @@ body{
 
 .db3, .db4, .db5 {
     border: 1px solid black;
+    width: 16vw;
     height: 30vh;
     border-radius: 30px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
 }
 
-.db4 {
-    background-color: black;
+.db3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border: transparent;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
 }
 
+.hd-db3 {
+    width: fit-content;
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hd1-db3 {
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 15px;
+    color: grey;
+    font-weight: 600;
+}
+
+.hd2-db3 {
+    border: transparent;
+    height: 45%;
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.c {
+    background-color: brown;
+    box-shadow: 0 0 4px 0 rgba(165, 42, 42, 5);
+}
+
+.c1 {
+    background-color: rgba(165, 42, 42, 0.394);
+    box-shadow: 0 0 4px 0 rgba(165, 42, 42, 5);
+}
+
+
+.cir-cle {
+    height: 19px;
+    width: 19px;
+    border-radius: 30px;
+    border: transparent;
+    margin-right: 3px;
+}
+
+
+.db4 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.grdd {
+    border: transparent;
+    height: 22%;
+    width: 90%;
+    align-items: center;
+    
+}
+
+.head-er {
+    display: flex;
+    gap: 3px;
+}
+
+.far-mrs {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cr {
+    border: 1px solid gray;
+    width: 55px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.all-time {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.this-year {
+    border: 1px solid brown;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.prfl {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.in-fo {
+    width: 60%;
+    height: 50px;
+    border: transparent;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frm-tbl {
+    display: flex;
+    gap: 5px;
+}
+
+.arr {
+    margin-left: 10px;
+}
+
+.db5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: transparent;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
+}
+
+.sucs-rte {
+    width: 90%;
+    height: 20%;
+    border: transparent;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.suc-lder {
+    width: 90%;
+    height: 55%;
+    border: transparent;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lder {
+    border: 23px dashed brown;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom: transparent;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* events section */
+
+.events {
+    border-radius: 30px;
+    border: transparent;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.hder-ev1 {
+    border: 1px solid black;
+    width: 90%;
+    height: 11%;
+}
+
+.first-tp {
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.schd {
+    height: 12%;
+    border: transparent;
+    box-shadow: 0 0 2.5px 0 rgba(0, 0, 0, 4);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+}

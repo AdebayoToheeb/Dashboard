@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgba(173, 216, 230, 0.153);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
 }
@@ -8,11 +8,10 @@ body{
     height: fit-content;
     background-color: black;
     display: flex;
-    background-color: white;
+    background-color: transparent;
 }
 
 .sidebox {
-    margin-top: 30px;
     height: fit-content;
     width: 9vw;
     background-color: white;
@@ -24,7 +23,19 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 200px;
+    animation: slideInLeft 1s ease;
 }
+
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
 .nav-btn {
     height: 30%;
@@ -32,6 +43,13 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.clsure {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .tabs{
@@ -45,9 +63,6 @@ body{
     justify-content: center;
 }
 
-.settings {
-    margin-bottom: 30px;
-}
 
 
 .home {
@@ -81,15 +96,28 @@ body{
     background-color: white;
     border-radius: 40px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    background-image: url(images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    animation: fadeIn 2s ease;
     flex-direction: column;
     gap: 110px;
+    animation: slideInDown 1s ease;
 
 }
+
+@keyframes slideInDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
 .nav-bar {
     background-color: transparent;
@@ -123,21 +151,21 @@ body{
 
 .calender {
     margin-left: 15%;
-    background-image: url(images/calendar\ \(1\).png);
+    background-image: url(../images/calendar\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
 }
 
 .notification {
-    background-image: url(images/notification.png);
+    background-image: url(../images/notification.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
 }
 
 .profile {
-    background-image: url(images/woman.png);
+    background-image: url(../images/woman.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,7 +256,7 @@ body{
     width: 40px;
     border-radius: 30px;
     background-color: white;
-    background-image: url(images/right-up.png);
+    background-image: url(../images/right-up.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,6 +302,7 @@ body{
     border: 1px solid transparent;
 }
 
+
 .db0 {
     display: grid;
     grid-template-columns: 40% auto;
@@ -283,8 +312,15 @@ body{
 .db1, .db2 {
     height: 100%;
     border-radius: 30px;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;
+    animation: fadeIn 2s ease ;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 
 .db1 {
     display: flex;
@@ -297,6 +333,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lightblue;
 }
 
 .gro {
@@ -451,7 +488,9 @@ body{
     width: 16vw;
     height: 30vh;
     border-radius: 30px;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: lightblue;
+    animation: fadeIn 3s ease;
 }
 
 .db3 {
@@ -460,7 +499,6 @@ body{
     justify-content: center;
     gap: 5px;
     border: transparent;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
 }
 
 .hd-db3 {
@@ -511,6 +549,7 @@ body{
 
 
 .db4 {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -599,7 +638,7 @@ body{
     align-items: center;
     gap: 5px;
     border: transparent;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .sucs-rte {
@@ -642,13 +681,27 @@ body{
 .events {
     border-radius: 30px;
     border: transparent;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
+    background-color: white;
+    animation: slideInRight 1s ease;
 }
+
+@keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 
 .hder-ev1 {
     border: 1px solid black;

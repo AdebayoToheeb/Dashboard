@@ -3,6 +3,8 @@ body {
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -49,7 +51,7 @@ nav {
 
 }
 
-.Signupbtn, .Signupbtn2 {
+.Signupbtn, .Signupbtn2, .btn-sec{
     color: white;
     font-weight: 200;
     background-color: brown;
@@ -246,13 +248,139 @@ nav {
 }
 
 .cards {
-    margin-top: 10%;
-    width: 100%;
+    margin-top: 15%;
+    width: 26vw;
     height: 70vh;
-    border: 0.5px solid rgba(165, 42, 42, 0.425) ;
-    border-radius: 30px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid rgba(165, 42, 42, 0.209) ;
+    background: linear-gradient(45deg, white, rgba(165, 42, 42, 0.108));
+    border-radius: 30px;
 }
 
 .cards-shadow {
     box-shadow: 5px 5px 10px 5px rgba(165, 42, 42, 0.2);
+}
+
+
+.hd-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 20px;
+}
+
+
+/* landing page 4 */
+.land4 {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgba(165, 42, 42, 0.426);
+    gap: 40px;
+}
+
+.top-sec {
+    width: 80vw;
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    gap: 24%;
+}
+
+.title-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-sec {
+    align-self: flex-end;
+}
+
+.bottom-sec {
+    width: 85vw;
+    height: 80%;
+    background-color: black;
+    border-radius: 30px;
+    background-image: url(../images/farmersmarket.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section 5 */ 
+.land5 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.tapbs {
+    width: 98%;
+    height: 70%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tbs {
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0.426);
+    width: 22vw;
+    border-radius: 30px;
+}
+
+.downloads2 {
+    display: flex;
+    gap: 2px;
+    align-self: center;
+}
+
+.tbs1 {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.tbs2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.tp-tbs {
+    height: auto;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0.426);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bt-tbs {
+    height: auto;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0.426);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tbs4 {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: transparent;
 }

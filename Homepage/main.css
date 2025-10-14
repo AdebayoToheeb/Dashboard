@@ -4,7 +4,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: fit-content;
     width: 100%;
-    overflow-x: hidden;
 }
 
 
@@ -307,7 +306,7 @@ nav {
     height: 80%;
     background-color: black;
     border-radius: 30px;
-    background-image: url(../images/farmersmarket.jpg);
+    background-image: url(../images/newfarmers.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -377,6 +376,16 @@ nav {
     flex-direction: column;
 }
 
+.tbs3 {
+    display: flex;
+    gap: 80%;
+    flex-direction: column;
+    background-image: url(../images/farmers23.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .tbs4 {
     display: grid;
@@ -384,3 +393,5 @@ nav {
     gap: 10px;
     background-color: transparent;
 }
+
+

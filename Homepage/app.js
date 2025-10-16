@@ -13,6 +13,10 @@ const resourceMenu = document.querySelector('.Resources-menu');
 const legalMenu = document.querySelector('.Legal-menu');
 
 
+// scroll function //
+const picBar = document.querySelector('.bottom-sec');
+
+
 // menus hover //
 comapny.addEventListener('mouseover', function(){
     companuMenu.classList.toggle('menu-display');

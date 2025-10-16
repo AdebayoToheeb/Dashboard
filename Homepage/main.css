@@ -395,3 +395,67 @@ nav {
 }
 
 
+/* section 6 */
+.land6 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.left-sec {
+    background-image: url(../images/seeds.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 100%;
+    width: 35%;
+    margin-left: 50px;
+}
+
+.right-sec {
+    background-color: transparent;
+    height: 100%;
+    width: 65%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.news {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.newspg {
+    height: 150px;
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(165, 42, 42, 0.2);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.newsimg {
+    height: 90px;
+    width: 180px;
+    background-color: white;
+    margin-left: 20px;
+    background-image: url(../images/newsimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.newstxt {
+    margin-top: 10px;
+}

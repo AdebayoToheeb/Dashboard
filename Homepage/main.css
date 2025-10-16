@@ -459,3 +459,32 @@ nav {
 .newstxt {
     margin-top: 10px;
 }
+
+
+/* footer p[age */
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ft-1 {
+    width: 90%;
+    height: 40%;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(234, 169, 169, 0.484);
+}
+
+
+.ft-2 {
+    width: 90%;
+    height: 40%;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(234, 169, 169, 0.484);
+}

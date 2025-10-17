@@ -42,12 +42,18 @@ nav {
 
 .ul {
     color: brown;
+    cursor: pointer;
 }
 
 .loginbtn {
     color: brown;
     font-weight: bold;
+    cursor: pointer;
 
+}
+
+a {
+    color: brown;
 }
 
 .Signupbtn, .Signupbtn2, .btn-sec{
@@ -271,6 +277,12 @@ nav {
     margin-top: 45px;
     gap: 20px;
 }
+
+
+.imgsec, .imgsec1, .imgsec2, .imgsec3, .imgsec4, .imgsec5 {
+    transition: transform 1s ease;
+}
+
 
 
 /* landing page 4 */
@@ -524,5 +536,5 @@ nav {
 
 .ft-3 {
     display: flex;
-    gap: 600px;
+    gap: 700px;
 }

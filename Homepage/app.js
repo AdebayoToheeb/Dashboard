@@ -16,6 +16,17 @@ const legalMenu = document.querySelector('.Legal-menu');
 // scroll function //
 const picBar = document.querySelector('.bottom-sec');
 
+// buttons //
+const signUp = document.querySelector('.Signupbtn');
+const logIn = document.querySelector('.loginbtn');
+const ImgZoom = document.querySelector('.imgsec');
+const ImgZoom1 = document.querySelector('.imgsec1');
+const ImgZoom2 = document.querySelector('.imgsec2');
+const ImgZoom3 = document.querySelector('.imgsec3');
+const ImgZoom4 = document.querySelector('.imgsec4');
+const ImgZoom5 = document.querySelector('.imgsec5');
+
+
 
 // menus hover //
 comapny.addEventListener('mouseover', function(){
@@ -95,3 +106,38 @@ card6.addEventListener('mouseover', function(){
 card6.addEventListener('mouseout', function(){
     card6.classList.toggle('cards-shadow');
 })
+
+
+signUp.addEventListener('mouseover', function(){
+    signUp.style.backgroundColor = 'black';
+    signUp.style.cursor = 'pointer';
+})
+signUp.addEventListener('mouseout', function(){
+    signUp.style.backgroundColor = 'brown';
+})
+
+function zoom(e){
+    e.style.transform = 'scale(1.1)';
+}
+function zoomOut(e){
+    e.style.transform = 'scale(1)';
+}
+
+ImgZoom.addEventListener('mouseover', () => zoom(ImgZoom))
+ImgZoom.addEventListener('mouseout', () => zoomOut(ImgZoom))
+
+ImgZoom1.addEventListener('mouseover', () => zoom(ImgZoom1))
+ImgZoom1.addEventListener('mouseout', () => zoomOut(ImgZoom1))
+
+ImgZoom2.addEventListener('mouseover', () => zoom(ImgZoom2))
+ImgZoom2.addEventListener('mouseout', () => zoomOut(ImgZoom2))
+
+ImgZoom3.addEventListener('mouseover', () => zoom(ImgZoom3))
+ImgZoom3.addEventListener('mouseout', () => zoomOut(ImgZoom3))
+
+ImgZoom4.addEventListener('mouseover', () => zoom(ImgZoom4))
+ImgZoom4.addEventListener('mouseout', () => zoomOut(ImgZoom4))
+
+ImgZoom5.addEventListener('mouseover', () => zoom(ImgZoom5))
+ImgZoom5.addEventListener('mouseout', () => zoomOut(ImgZoom5))
+

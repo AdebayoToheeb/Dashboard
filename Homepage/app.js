@@ -27,6 +27,14 @@ const ImgZoom4 = document.querySelector('.imgsec4');
 const ImgZoom5 = document.querySelector('.imgsec5');
 
 
+// overlay toggle //
+const overlay = document.querySelector('.Sign-up-overlay');
+const overlay2 = document.querySelector('.Login-overlay');
+const SignUpPg = document.querySelector('.signUp-page');
+const logInpg = document.querySelector('.Login-page');
+
+
+
 
 // menus hover //
 comapny.addEventListener('mouseover', function(){
@@ -116,6 +124,17 @@ signUp.addEventListener('mouseout', function(){
     signUp.style.backgroundColor = 'brown';
 })
 
+signUp.addEventListener('click', function(){
+    overlay.style.display = 'flex';
+    SignUpPg.style.display = 'grid';
+})
+
+logIn.addEventListener('click', function(){
+    overlay2.style.display = 'flex';
+    logInpg.style.display = 'grid';
+})
+
+
 function zoom(e){
     e.style.transform = 'scale(1.1)';
 }
@@ -141,3 +160,13 @@ ImgZoom4.addEventListener('mouseout', () => zoomOut(ImgZoom4))
 ImgZoom5.addEventListener('mouseover', () => zoom(ImgZoom5))
 ImgZoom5.addEventListener('mouseout', () => zoomOut(ImgZoom5))
 
+
+overlay.addEventListener('click', function(){
+    SignUpPg.style.display = 'none';
+    overlay.style.display = 'none';
+})
+
+overlay2.addEventListener('click', function(){
+    logInpg.style.display = 'none';
+    overlay2.style.display = 'none';
+})

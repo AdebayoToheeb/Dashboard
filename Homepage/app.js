@@ -25,6 +25,8 @@ const ImgZoom2 = document.querySelector('.imgsec2');
 const ImgZoom3 = document.querySelector('.imgsec3');
 const ImgZoom4 = document.querySelector('.imgsec4');
 const ImgZoom5 = document.querySelector('.imgsec5');
+const signUp2 = document.querySelector('.signup2');
+const logIn2 = document.querySelector('.login2');
 
 
 // overlay toggle //
@@ -169,4 +171,20 @@ overlay.addEventListener('click', function(){
 overlay2.addEventListener('click', function(){
     logInpg.style.display = 'none';
     overlay2.style.display = 'none';
+})
+
+
+// login page and signup page  //
+logIn2.addEventListener('mouseover', function(){
+    logIn2.style.backgroundColor = 'black';
+})
+logIn2.addEventListener('mouseout', function(){
+    logIn2.style.backgroundColor = 'brown';
+})
+
+signUp2.addEventListener('mouseover', function(){
+    signUp2.style.backgroundColor = 'black';
+})
+signUp2.addEventListener('mouseout', function(){
+    signUp2.style.backgroundColor = 'brown';
 })

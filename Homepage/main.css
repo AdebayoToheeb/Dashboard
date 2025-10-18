@@ -543,7 +543,6 @@ nav {
 .Sign-up-overlay, .Login-overlay {
     display: none;
     justify-content: center;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -561,6 +560,7 @@ nav {
     display: none;
     grid-template-columns: 50% 50%;
     z-index: 9999;
+    margin-top: 30px;
 }
 
 

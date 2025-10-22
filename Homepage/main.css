@@ -1,9 +1,17 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body, html {
     background-color: rgba(165, 42, 42, 0.074);
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: fit-content;
     width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -754,6 +762,35 @@ input {
 .data-sec-about2 {
     width: 100%;
     height: 90vh;
-    background-color: brown;
+    background-color: transparent;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    justify-content: center;
+}
+
+.sec-2-data {
+    width: 40vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.dt-sec2-details{
+    height: 12vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chart {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 50%;
     margin-top: 5%;
 }
